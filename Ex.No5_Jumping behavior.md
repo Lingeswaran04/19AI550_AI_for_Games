@@ -95,8 +95,7 @@ pygame.quit()
 
 
 ### Output:
-
-
+![Screenshot (41)](https://github.com/user-attachments/assets/34521b7e-5152-42c4-8351-cc04741d1498)
 
 ### Result:
 Thus the simple jumping behavior  was implemented.

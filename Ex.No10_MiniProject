@@ -1,6 +1,6 @@
 # Ex.No: 10   Mini Project 
 ### DATE:                                                                           
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222110022
 ### AIM: 
 
 To develop a Flappy Bird game using Python's pygame library, integrated with asyncio for handling game states asynchronously. 
@@ -19,7 +19,7 @@ transitioning between game states such as splash, play, and game over.
 5. Test and debug: Run the game, ensure smooth transitions, and fix any issues with collision detection or user inputs.
 
 ### Program:
-
+```
 ## Flappy:
 import asyncio
 import sys
@@ -156,8 +156,8 @@ class Flappy:
             self.config.tick()
             pygame.display.update()
             await asyncio.sleep(0)
-
-
+```
+```
 ## Main:
 
 import asyncio
@@ -166,7 +166,7 @@ from src.flappy import Flappy
 
 if __name__ == "__main__":
     asyncio.run(Flappy().start())
-
+```
 
 ### Output:
 

@@ -13,8 +13,8 @@ To write a python program to simulate the Zomibie Survival game using A* Search
 7.  In main, create the obstacles and move the player by Key movements up, down,left and right 
 10.  Update the display every time 
 11.  Stop the program
-```
  ### Program:
+ ```
 py
 import heapq
 import random
